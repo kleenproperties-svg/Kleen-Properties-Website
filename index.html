@@ -3,22 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kleen Properties | Pool & Property Services | Hyde Park NY</title>
-  <meta name="description" content="Kleen Properties provides pool maintenance, lawn care, yard cleanup, landscaping and property services across Hyde Park, Dutchess County, Orange County and Ulster County NY. Call 845-952-0992.">
-  <meta name="keywords" content="pool maintenance Hyde Park NY, landscaping Dutchess County, lawn care Hyde Park, pool opening service NY, yard cleanup Hudson Valley, property services Hyde Park NY">
+  <title>Kleen Properties | Pools, Landscaping & Property Services | Hyde Park NY</title>
+
+  <meta name="description" content="Kleen Properties provides pools, landscaping, lawn care, yard cleanup, and exterior property services across Hyde Park, Dutchess County, Orange County, and Ulster County NY. Call 845-952-0992.">
+  <meta name="keywords" content="pools Hyde Park NY, landscaping Dutchess County, lawn care Hyde Park, pool opening service NY, yard cleanup Hudson Valley, property services Hyde Park NY">
   <meta name="theme-color" content="#08111f">
+
+  <meta property="og:title" content="Kleen Properties | Pools, Landscaping & Property Services">
+  <meta property="og:description" content="Premium pools, landscaping, and exterior property services with clean lines, polished results, and dependable local workmanship.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kleen Properties | Pools, Landscaping & Property Services">
+  <meta name="twitter:description" content="Premium pools, landscaping, and exterior property services with clean lines, polished results, and dependable local workmanship.">
+  <meta name="twitter:image" content="logo.png">
+
   <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <div class="brand">
-      <div class="brand-mark">KP</div>
-      <div class="brand-text">
-        <div class="brand-name">Kleen Properties</div>
-        <div class="brand-tag">Pool • Landscape • Property Services</div>
-      </div>
+      <img src="logo.png" alt="Kleen Properties logo" class="site-logo">
     </div>
 
     <div class="contact">
@@ -31,7 +40,7 @@
     <div class="hero-panel">
       <div class="eyebrow">Premium Exterior Property Care</div>
       <h1>Kleen Properties</h1>
-      <p>Premium pool, landscaping, and exterior property services with clean lines, polished results, and dependable local workmanship.</p>
+      <p>Premium pools, landscaping, and exterior property services with clean lines, polished results, and dependable local workmanship.</p>
 
       <div class="hero-actions">
         <a href="#contact" class="btn">Request Service</a>
@@ -42,7 +51,7 @@
 
   <section class="trust-strip">
     <div class="trust-item">Local Hudson Valley Service</div>
-    <div class="trust-item">Pool • Landscape • Yard Work</div>
+    <div class="trust-item">Pools • Landscaping • Property Services</div>
     <div class="trust-item">Professional Presentation</div>
     <div class="trust-item">Fast Direct Contact</div>
   </section>
@@ -63,6 +72,95 @@
       <li>Mild Masonry</li>
       <li>General Yard Work</li>
     </ul>
+  </section>
+
+  <section class="split-section">
+    <div class="split-card">
+      <h2>Service Area</h2>
+      <p>Serving Hyde Park, Poughkeepsie, Rhinebeck, Red Hook, Beacon, Fishkill, Kingston, New Paltz, Newburgh, and surrounding Hudson Valley communities within about 45 minutes of Hyde Park, New York.</p>
+
+      <div class="service-highlights">
+        <div class="highlight-box">Dutchess County</div>
+        <div class="highlight-box">Orange County</div>
+        <div class="highlight-box">Ulster County</div>
+        <div class="highlight-box">Hudson Valley Coverage</div>
+      </div>
+    </div>
+
+    <div class="split-card" id="contact">
+      <h2>Contact Us</h2>
+      <p>Request pool care, landscaping, lawn service, or seasonal exterior work.</p>
+
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden-field">
+          <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+        </p>
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email Address">
+        <textarea name="details" placeholder="Project Details"></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="why-us">
+    <h2>Why Homeowners Choose Kleen Properties</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <h3>Premium Presentation</h3>
+        <p>We focus on clean lines, sharp curb appeal, and polished exterior results that make a property look properly maintained.</p>
+      </div>
+      <div class="why-card">
+        <h3>Reliable Local Service</h3>
+        <p>We serve the Hudson Valley with responsive communication, practical scheduling, and a hands-on local-business approach.</p>
+      </div>
+      <div class="why-card">
+        <h3>Broad Exterior Coverage</h3>
+        <p>From pool maintenance to lawn care and garden beds, we help homeowners keep more of their exterior needs under one roof.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Kleen Properties logo" class="footer-logo">
+      </div>
+
+      <div class="footer-block">
+        <h4>Contact</h4>
+        <a href="tel:8459520992">845-952-0992</a>
+        <a href="mailto:kleenproperties@gmail.com">kleenproperties@gmail.com</a>
+      </div>
+
+      <div class="footer-block">
+        <h4>Coverage</h4>
+        <div>Dutchess County, NY</div>
+        <div>Orange County, NY</div>
+        <div>Ulster County, NY</div>
+      </div>
+
+      <div class="footer-block">
+        <h4>Brand Promise</h4>
+        <div>Clean lines</div>
+        <div>Dependable service</div>
+        <div>Professional results</div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Kleen Properties</span>
+      <span>Hyde Park, New York</span>
+    </div>
+  </footer>
+
+  <a class="floating-call" href="tel:8459520992">Call Now</a>
+
+</body>
+</html>    </ul>
   </section>
 
   <section class="split-section">
